@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+ body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+      }
+      
+      .header {
+        background: radial-gradient(
+          circle,
+          rgba(63, 94, 251, 1) 0%,
+          rgba(252, 70, 107, 1) 100%
+        );
+      }
+
+      #login-form {
+        position: absolute;
+        top: 25%;
+        left: 35%;
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px #ccc;
+        margin: 0 auto;
+        max-width: 30%;
+        padding: 20px;
+        height: 45%;
+        width: 40%;
+      }
+      #register-form {
+        position: absolute;
+        top: 25%;
+        left: 35%;
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px #ccc;
+        margin: 0 auto;
+        max-width: 30%;
+        padding: 20px;
+        height: 70%;
+        width: 40%;
+      }
+      
+      h2 {
+        text-align: center;
+        color: #333;
+      }
+      
+      input[type="text"], input[type="password"] {
+        
+        border-radius: 3px;
+        /* border: none; */
+        display: block;
+        font-size: 16px;
+        margin-bottom: 10px;
+        padding: 10px;
+        width: 100%;
+      }
+      
+      input[type="submit"] {
+        
+        background-color: #7c6fde;
+        border: none;
+        border-radius: 3px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 10px;
+        padding: 10px;
+        width: 100%;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #c851ba;
+      }
+      
+      .error {
+        color: #ff0000;
+        font-size: 14px;
+        text-align: center;
+      }
+      
+      .register {
+        color: #813dd4;
+        font-size: 14px;
+        text-align: center;
+        text-decoration: none;
+      }
+      
+      .register:hover {
+        text-decoration: underline;
+      }
+      
+      .forgot-password {
+        color: #813dd4;
+        font-size: 14px;
+        text-align: right;
+        text-decoration: none;
+      }
+      
+      .forgot-password:hover {
+        text-decoration: underline;
+      }
